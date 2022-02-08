@@ -12,7 +12,7 @@ const Profile = () => {
           <div className="bottom-0 left-0 position-absolute">
             <div className="position-relative">
               <img className="position-relative ttr-z-index-1 ttr-top-40px ttr-width-150px"
-                   src="../images/nasa-3.png"/>
+                   src="../images/nasa-3.png" alt="logo"/>
             </div>
           </div>
           <Link to="/profile/edit"
