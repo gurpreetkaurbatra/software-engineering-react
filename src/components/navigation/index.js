@@ -32,7 +32,7 @@ function Index() {
       })
       }
       </ul>
-     <a href="javascript:void(0)" class="mt-3 btn btn-lg btn-primary rounded-pill w-100 fw-bold text-white">
+     <a href="/#" class="mt-3 btn btn-lg btn-primary rounded-pill w-100 fw-bold text-white">
       Tuit</a>
     </div>
   );
