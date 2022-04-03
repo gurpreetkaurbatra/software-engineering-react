@@ -10,6 +10,7 @@ const MyTuits = () => {
             .then(tuits => setTuits(tuits));
     }
     useEffect(findMyTuits, []);
+    //Automatically refreshes tuits when the like button is hit
     return(
         <Tuits tuits={tuits}
                refreshTuits={findMyTuits}/>
