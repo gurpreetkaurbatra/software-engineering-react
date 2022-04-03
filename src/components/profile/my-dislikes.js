@@ -11,6 +11,7 @@ const MyDislikes = () => {
             .then((tuits) => setDislikedTuits(tuits));
     useEffect(findTuitsDislike, []);
 
+    //Automatically refreshes tuits when the like button is hit
     return (
         <div>
             <Tuits tuits={dislikedTuits} refreshTuits={findTuitsDislike}/>
