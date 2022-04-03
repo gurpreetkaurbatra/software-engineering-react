@@ -1,7 +1,9 @@
 
    
 import axios from "axios";
-//const BASE_URL = "https://software-engineering-node-dev4.herokuapp.com"
+
+//URL is read from .env file
+//Handles all tuits liked by a user
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 const USERS_API = `${BASE_URL}/api/users`;
 const TUITS_API = `${BASE_URL}/api/tuits`;
