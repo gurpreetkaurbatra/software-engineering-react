@@ -4,6 +4,7 @@ const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 const AUTH_API = `${BASE_URL}/api/auth`
 
+//axios handles authorization
 const api = axios.create({
    withCredentials: true
 });
