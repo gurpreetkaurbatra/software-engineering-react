@@ -8,7 +8,7 @@ const Tuits = ({tuits = [], refreshTuits}) => {
         likesService.userLikesTuit('me', tuit._id)
             .then(refreshTuits)
             .catch(e => alert(e))
-
+// handling for the dislikes tuits
     const dislikeTuit = (tuit) =>
         likesService.userDislikesTuit('me', tuit._id)
             .then(refreshTuits)
